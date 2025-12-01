@@ -114,7 +114,7 @@ We require the following base files:
 
 **Download Reference Files:**
 
-![](D:\RLK_database\project\数据来源\毕业\博士后\杂事\EasyOmics\WGBS\picture\ncbi_genome.png)
+![](https://github.com/Haolab-BIG/WGBS-Processing-Pipeline/raw/main/picture/ncbi_genome.png)
 
 ##### Build bitmapperBS Indices:
 ```bash
@@ -192,7 +192,7 @@ snakemake -s WGBS.smk \
 dot -Tsvg > dag.svg
 ```
 
-![](D:\RLK_database\project\数据来源\毕业\博士后\杂事\EasyOmics\WGBS\picture\dag.png)
+![](https://github.com/Haolab-BIG/WGBS-Processing-Pipeline/raw/main/picture/dag.png)
 ### 4. Check the current working directory
 
 The initial working structure for snakemake in /mnt/liuq/WGBS/:
@@ -312,7 +312,7 @@ After the pipeline completes, the output directory will contain several files an
   
        - **General Statistics**: A combined table summarizing important metrics for each sample:
        
-       ![](D:\RLK_database\project\数据来源\毕业\博士后\杂事\EasyOmics\WGBS\picture\general_statistic.png)
+       ![](https://github.com/Haolab-BIG/WGBS-Processing-Pipeline/raw/main/picture/general_statistic.png)
        
        - **FastQC**: Quality-control metrics on raw and trimmed reads, including  
         'Sequence Counts', 'Sequence Quality Histograms', 'Per Sequence Quality Scores',  
@@ -323,11 +323,11 @@ After the pipeline completes, the output directory will contain several files an
        - **Sequence Quality Histograms**: The mean quality value across each base position in the read. 
        
        
-       ![](D:\RLK_database\project\数据来源\毕业\博士后\杂事\EasyOmics\WGBS\picture\fastqc_per_base_sequence_quality_plot.png)
-          
+       ![](https://github.com/Haolab-BIG/WGBS-Processing-Pipeline/raw/main/picture/fastqc_per_base_sequence_quality_plot.png)
+       
       - **Adapter Content**: The cumulative percentage count of the proportion of your library which has seen each of the adapter sequences at each position.  
       
-       ![](D:\RLK_database\project\数据来源\毕业\博士后\杂事\EasyOmics\WGBS\picture\fastqc_per_sequence_quality_scores_plot.png)
+       ![](https://github.com/Haolab-BIG/WGBS-Processing-Pipeline/raw/main/picture/fastqc_per_sequence_quality_scores_plot.png)
       
   
 - **`fastqc.html(zip)`**
