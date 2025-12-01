@@ -1,0 +1,19 @@
+samples:
+    case:
+        SRR34756619: 
+            R1 : "data/samples/SRR34756619_R1.fastq.gz"
+            R2 : "data/samples/SRR34756619_R2.fastq.gz"
+        SRR34756620:
+            R1 : "data/samples/SRR34756620_R1.fastq.gz"
+            R2 : "data/samples/SRR34756620_R2.fastq.gz"
+    control:
+        SRR34756625: 
+            R1 : "data/samples/SRR34756625_R1.fastq.gz"
+            R2 : "data/samples/SRR34756625_R2.fastq.gz"
+        SRR34756626: 
+            R1 : "data/samples/SRR34756626_R1.fastq.gz"
+            R2 : "data/samples/SRR34756626_R2.fastq.gz"
+BITMAPPERBSIDX : "data/GCA_040143515.1/GCA_040143515.1_ASM4014351v1_genomic.fna"
+home : "/mnt/liuq/test/singularity"
+container : "wgbs.sif"
+species : "Solanum lycopersicum"

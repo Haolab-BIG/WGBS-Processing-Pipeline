@@ -1,0 +1,5 @@
+name   condition
+SRR34756619   case
+SRR34756620   case
+SRR34756625   control
+SRR34756626   control
